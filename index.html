@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>School Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=GCA05TGjvAZG2qOsXfKodiE3vEgLXjytlmxdaKV9ow8RNq9aNA7r1yOtDJTnQPEniCWOUiwfuXDm55DnsOE49SPEkMyr_ktC0Ue4FD6KDd80oOxgNUAqQc7DBHzFTTP_hrFusxTlZus1ItSeoJIq8B_PKxaHM_I5ndCsqdEimgx2YNPAHsvzbFrmbc3tPPx8ZqgdXA1CEMgPQfZk9X8irCKeOBYFIwPdrVjHdUZ48wft7SOb7kml1DoQzzAcxBVA2zSJ3MuuJXCm7cP-JcCOjb9hiLGmGew63GUujyTtqrK4msYbXmUZa3aWAZR0lLySt7R1XyxFP-ZNnlOcOkPzbEh_u40aYFXCmPhcz2GeH34AMqsl5euiVNNb4EtEibs_QkslL_9Pb-KRFZXpqmgZk_mGJkqfqTHoSMAmnspTL-we9hpVYolBxl1EAqkvEgyjLhLVU0EAv1LNHebRlbf2AK_U85CwLY9haYU1Dz3L5LPdmasAVA3z9uFdH5neAt530VRkEh3UE734E1vvNiR74geszgxEI89hm_T9UwsFef-Ao6OlkarbVcfEKRHifZ1DCmlBDdBJwkuWLEtLuivupeTI2Y2QYtAApIeyYkNdSNrvXiO1ulUHReJeu3FE-qT43uEMm51IY3GQDbex1-VGSDlZpL8B8-KFx1D5QPJr39vHj5FxnWljX10JJ0E7_n0hp-GFdAkWWko2arNbhULFBNWvGgeUr9h2pFqDh6j_Eohe21D5uIuj9wqxVbmtTvUQz-xunNdGyyuGsCCM_uIlnoldC9Cu49jgUtYpDOhVikEdFFZhjo-Q-kjlNujo_RJ2-oLuTRcy1m-Vhz3p2b77RRXv0o8em1p-LJiVdxv7l-PV3Y8clQoVcdgbPVgzH2q08a-2WqSBdrDgceWl1-MD6s2J-g-vd1kL7nNYEVXCx1IJMVPrb5P8ydMjAFeNNrLt5nCZnA2uARt4I_c91kf6gFQfZc5JcC3IZAhTWp07EYXueqwokEoGYJBgXhGefgnCY_O07vkVrwh08TBNMCeL4FvX0nxadPcRx7kfwsf-OBEFgTjvty2NMvy_CWMxzlQaBE2lIRaM9f3SZ6Uo4v8FN7FPhTpAooiNIRSqNLzw342CzVUsK6fXnAPKdGKYLlMeELch0C-i-pGXglr1DqOW281CegUPu8AXBBKSwtqo0aOrOSV3rxfvOPAxWEZMFKgznTJ79VbMMzwJOnzdwqycwA8Ch-ui3lgdv_XHqcKedE3bW-kBFWlFKvdaBh-AQKs3JxEfTRa3wv7kp1t95B4B0eKjt4X6flbI55-yY-FUxCNC4wWLgsDn8owLZa1A5OinO2h8wULuuWteCX7rqunoGbtxkk0crznTdlXUeERkmCrXUjbD9rgnXPo8nBNjpm4wCrgqGRddFXi7czJZXrB8aCQfDxMvhaB7LDTjzl2ily78HR7btH38ZSGgB94yiR-JST8BgQJcYU4-7o4dnIclF9si0YtQKjNJpfhaBcbR2S2tyz0J3gEGWGLAIchItopi0o1E9nHqRgN6KE5gUujtDZhtKWoM77WN1KSEAKREvlLf3WaPjfZxVI3DKveqPDJ7WlT-skza12nEexbYqsZXqQ" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kb2MtMG8tMjQtZG9jcy5nb29nbGV1c2VyY29udGVudC5jb20vZG9jcy9zZWN1cmVzYy9ybmE1cWUyM292MXZpamQ1dTdnM2Q2N3VuamJyNGwxMC90Y20xcGxqMGZpcjRubjhwajBxMmczYjFxNHNhcnV0bi8xNjcwMzE0NzI1MDAwLzE1MTIzNDMyNDgwNDQ3MTEzNjg3LzA2ODE4MTI0NzU3NTcyNDQxNDU0LzFqVjBBalF2dldkbU56dXNxbVd3ZlhuMXlfMmNxX3FCRj9lPWRvd25sb2FkJmF4PUFFS1lneVR1X3ptTFM3VlZxMnc0aV8tZ1pVZUY3OW55S1ZKSWtHNjJYeU9CNy01WnZMOUtXTTh3dFU1bHhtN0JtbHhRdkNqMjFmT1FacVM4MjNsbXBxU3Y3UzR5bk1DbEw5YjAyQUZIcklTWlpDUmlnNlQ5elVUVzNvejAzd3JRZWNuM3Q5MjVLZnIxSDU1ckVWdzAxcjNxdkh0Y3JoTXBmVUZFZnlOaTBsRWRkdWJrc2kzQXZNeHEydGRISTd1R0F0WGRKdHYwZ0NoTlk2bHNDbWlacTludHVvb0NYdUpJYlBNWEhiazhGTS0yUHBtcHpNQjBlYldzOXM1NW9TeDRZaG9CQlhOd05xazFOZ3ZJSjl2czFYOHhvSlJTVUpETlZaUlJiZ3ZPaDJUdGd5VElhM2VyRWhyUHRuZHljWVJfOUdlS0ZBWi1sRFRteF8za3NqR0VrR0V0YTRPUFQzZjJ4VE1fNVBxMmNQV1VBM29QZGxEY0s1dDFodUphbmFHczZ2S3gyOTZ0X0ozTTFmSUZxX21DZWU5WktGNXB5NzZVRzZaQWNoRk1LREcxU2JOQWN4Q1pVYWIwVThyYk1Sa0J6LWtDdVV0UTN2SVpjSlFQYWdBZGZHY25yTFpGR3hEWWZLUTl1QzBHQUxFaTlJSkJMVGx3WW8tRDM1djVILTA3cEl3LUZNVjRKOGpFMDhoTW45N0FldkMyNmtacTFkbUN5ZE5KeEg2NnFEcm1mWjI0ekVaUHA4T3JCLUdodXJ4MjhMMzJyblktQ1RHdDhGQWRwVmQ5SE9JVjNLdU9YWUxwcGVlX0duaThWS2JjZUpBZ056UE81YzVjdlZvdnlXWnVQREpUYW9WczduUWhsLW02MFBIYlN4TzBmOWFoT1FDcjViUlZheHpSdExrZE5xUUlqLVlmY3VMRTJmckdBT2tickU1cjhnN3dMX1hYc01WTG5GM25Wb0RZa2s0bGUtWDZScWY2amhGSWlJNEVaZk14ZXh4VjZJTGlia2xiNVNKb3dwMVA1am5HMzRJLUxSc1NVTkh0bXlaWDJfT2l3dkhIOWdhSlVYUV9qVGM4TTZUZkpXbGs2bElOQ3N3d3N3QmhxM1ZFUDk0WDllMVlyR2pLbS14TURlc3lfWURFU0c0OGxwZ2pBSW4xYTlLaU41dzVFTXJkOUJrbGszZXhLRmp6c3VRQlF3JnV1aWQ9ODk1ZGVlYWYtOWQ3ZS00NjUyLWE2MGUtYjFmYjdlYmQ2MmRiJmF1dGh1c2VyPTA"/><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse my_nav_bar">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-band" href="#">School</a>
+  </div>
+   <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+     <li><a href="#CampusLife">CAMPUS LIFE</a></li>
+     <li><a href="#Achievements">ACHIEVEMENTS</a></li>
+     <li><a href="#Whats_New">WHAT'S NEW</a></li>
+     <li><a href="#contact">CONTACT US</a></li>
+    </ul>
+   </div>
+</nav>
+<center>
+  <iframe width="684" height="385" src="https://www.youtube.com/embed/BMupqDvtlOY" title="INMUN 2022 | Memories to cherish forever." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+<section id="School Name">
+  <center>
+    <h1 >St. Xaviers School</h1>
+  </center>
+</section>
+<section id="CampusLife">
+ <div class="container">
+  <center>
+    <h2 class="page header" id="CampusLife">Campus Life</h2>
+  </center>
+  <center>
+    <div class="travel_mainDiv">
+      <img src="church.jpg">
+      <hr >
+      <h5 class="text-success text-capitalize">Was established in 1978 </h5>
+      <p class="text-muted">St. Xaviers school is the greatest school in the area. It has world class education and high quality materials</p>
+    </div>
+  </center>
+  <br><br>
+  <center>
+    <div class="travel_mainDiv">
+      <img src="st2.jpg">
+      <h5 class="text-capitalize">Was built in 1980</h5>
+      <p class="text-muted">The school library is a wonderful place to study and read books in</p>
+    </div>
+  </center>
+  <br><br>
+  <center>
+    <div class="travel_mainDiv">
+      <img src="st3.jpg">
+      <h4 class="text-capitalize"><kbd>School auditorium</kbd></h4>
+      <hr >
+      <h5 class="text-success text capitalize">was built in 1982</h5>
+      <p class="text-muted">A big auditorium used for our assemblies is located here</p>
+    </div>
+  </center>
+ </div>
+</section>
+<section id="Achievements">
+  <h2 class="page-header" id="achievements">School Achievements</h2>
+
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="Achievements">
+    Inter School Debate On Environment Pollution<i class="fa fa-sort-desc"></i>
+  </div>
+
+  <div id="Achievements" class="collapse"></div>
+
+  <div class="achievement_text">
+    <img src="se1.jpg" class="img-responsive img-thumbnail">
+    <h5 class="text-success text-capitalize">Won first first prize in inter school debate on environment Pollution
+      <span class="glyphicon glyphicon-star"></span>
+      <span class="glyphicon glyphicon-star"></span>
+      <span class="glyphicon glyphicon-star"></span>
+      <span class="glyphicon glyphicon-star"></span>
+      <span class="glyphicon glyphicon-star"></span>
+   </h5>
+   <p>In this inter school competition our school won first place in the pollution category where people talk about pollution and why it is bad for the environment</p>
+  </div>
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="Achievements">
+    Got second place in inter-school footbal competition<i class="fa fa-sort-desc"></i>
+  </div>
+   <div id="Achievements" class="collapse"></div>
+    
+    <div class="achievement_text" class="collapse">
+     <img src="sm2.jpg" class="img-responsive img-thumbnail">
+     <h5 class="text-success text-capitalize">Came second inter school football competition
+     <span class="glyphicon glyphicon-star"></span>
+     <span class="glyphicon glyphicon-star"></span>
+     <span class="glyphicon glyphicon-star"></span>
+     <span class="glyphicon glyphicon-star"></span>
+     <span class="glyphicon glyphicon-star"></span>
+     </h5>
+     <p>Our school got second place in the inter school football competition after a thrilling match between another school</p>
+    </div>
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="Achievements">
+      Won second prize in inter school science project competition<i class="fa fa-sort-desc"></i>
+    </div>
+     <div id="Achievements" class="collapse"></div>
+      
+      <div class="achievement_text" class="collapse">
+       <img src="sm3.jpg" class="img-responsive img-thumbnail">
+       <h5 class="text-success text-capitalize"></h5>
+       <span class="glyphicon glyphicon-star"></span>
+       <span class="glyphicon glyphicon-star"></span>
+       <span class="glyphicon glyphicon-star"></span>
+       <span class="glyphicon glyphicon-star"></span>
+       <span class="glyphicon glyphicon-star"></span>
+       </h5>
+       <p>Our school got second place in the inter school science project competition. We got the prize with the solar panel project by a student in grade 7</p>
+      </div>
+
+    </div>
+  </section>
+<section id="Whats_New">
+<h2 class="page-header" id="new">What's New</h2>
+<ul class="list-group">
+  <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <h4>New School Canteen</h4>
+    <img src="canteen.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+    <p class="list-groups-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">The food options and responsibilities to consider,canteens must be better organised and more efficient than they have been in the past.Online menus with photographs of the meals must be prepared, and detailed descriptions of their ingrediants help both students and parents make the right nutritional choices. Each student or staff member who accesses the canteen could be provided with a School Canteen Account on the school website that keeps track of their previous meal choices and any dietary requirements they may have. Ordering online by ticking a bok and paying for the meal online can eliminate all the fuss of money handling, making it safer and less complicated for staff and students alike.Here again, diversity is the key.</p>
+  </li>
+</ul>
+<h2 class="page-header" id="new">What's New</h2>
+<ul class="list-group">
+  <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-5 col-xs-12">
+    <h4>Implemented Online Attendance Management System</h4>
+    <Img src="attendance.jpg" class="img-resonsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+      <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">Implemented Online Attendance Management System: This informs parents about their child's activities in the school, instantly. Once a student reaches the school, the parents will be informed about the status via text messages. This helps schools keep a record of the students' absenteeism. Students can mark the attendance by logging in, and this is stored in a database, which can later be checked by the admin. The tracker has so much potential that it can identify which are irregular to their classes and not be ready to establish connectivity with the actual concepts of their curriculum's subjects. As soon as you enter a student's Enrollment Number or Name, details like availability in classes, number of lectures attended will be displayed and no proxies are possible since the tracker is supported by cloud capabilities. Even the security offered can be so robust and powerdul that those students who always fool their deans are caught in a second. Just after the admin enters login details into this tracker. All will improve accuracy and transparency in any educational institutions as students and their parents are pre-informed about the real-time status of leave requests and absenteeism in a confidential manner and at reduced costs.</p>
+  </li>
+</ul>
+</section>
+<section id="contact">
+  <iframe src="https://www.google.com/maps/place/WhiteHat+Education+Technology+Pvt+ltd/@28.4180937,77.0506065,17z/data=!3m1!4b1!4m5!3m4!1s0x390d196f41e17785:0xa6bcc74a4e584730!8m2!3d28.4181012!4d77.0506064"></iframe>
+  <hr>
+  <img src="sp.png" class="img-responsive img-circle col-lg-3 col-md-3 cold-sm-3 col-xs-4">
+  <h3>Principal Name:</h3>
+  <h4>Mr.Xavier John Dcosta</h4>
+  
+  <div class="contact_1">
+    <a href="mailto:mygmail@gmail.com?Subject=Hi">
+      <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+    </a>
+    <a href="#">
+      <h5><i class=fa fa-instagram></i>&nbsp;&nbsp;schoolId</h5>
+    </a>
+    <a href="#">
+      <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;9916001600</h5>
+    </a>
+  </div>
+</section>
+
+</body>
+
+</html>
